@@ -6,7 +6,7 @@ function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
-installcask dropbox
+installcask growlnotify
 installcask google-chrome
 installcask google-chrome-canary
 installcask imagealpha
@@ -21,3 +21,30 @@ installcask transmission
 installcask ukelele
 installcask virtualbox
 installcask vlc
+
+installcask alfred
+brew cask alfred link
+
+installcask u-torrent
+installcask vagrant
+installcask spotify
+installcask gitx-l
+installcask gitbox
+installcask github
+installcask firefox
+installcask firefox-aurora
+installcask quicksilver
+installcask arduino
+installcask keka
+installcask clamxav
+installcask libre-office
+
+brew install redis
+brew install mongodb
+brew install mercurial
+brew install youtube-dl
+brew install ffmpeg
+
+brew install libusb
+brew install taglib
+brew install libmcrypt
