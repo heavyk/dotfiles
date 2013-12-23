@@ -5,7 +5,7 @@ update
 upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated)
-# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
+# Don’t forget to add `$(--prefix coreutils)/libexec/gnubin` to `$PATH`.
 install coreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 install findutils
@@ -45,7 +45,18 @@ install webkit2png
 install zopfli
 
 tap homebrew/versions
+tap caskroom/versions
 install lua52
+
+install redis
+install mongodb
+install mercurial
+install youtube-dl
+install ffmpeg
+
+install libusb
+install taglib
+install libmcrypt
 
 # Remove outdated versions from the cellar
 cleanup

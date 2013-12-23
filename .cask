@@ -38,13 +38,4 @@ installcask arduino
 installcask keka
 installcask clamxav
 installcask libre-office
-
-brew install redis
-brew install mongodb
-brew install mercurial
-brew install youtube-dl
-brew install ffmpeg
-
-brew install libusb
-brew install taglib
-brew install libmcrypt
+installcask sublibe-text3
